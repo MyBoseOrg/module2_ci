@@ -45,7 +45,7 @@ pipeline{
         sh 'mvn clean verify sonar:sonar \
   -Dsonar.projectKey=devsecops-spring-app \
   -Dsonar.host.url=http://etechdevopdemo.eastus.cloudapp.azure.com:9000 \
-  -Dsonar.login=d4d4da5437d6e1c245cc675e9c0e16d25b5df4ba'
+  -Dsonar.login=54aee578297d7a1177c4b487f9158c29216a7005'
             }
           }
         }
